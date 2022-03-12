@@ -9,58 +9,31 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
-    <script src="typed.min.js"></script>
-    <script src="tilt.jquery.min.js"></script>
+
   <title>Health Care Doc</title>
-  <script src="index.css">
-
-  </script>
-  <script src="index.js">
-
-</script>
   <style>
-    div.topmost 
-    {
-      background-color: rgb(99, 113, 240);
-      position: absolute;
-      width: 60%;
-      margin-left: 0px;
+    div.loghostop {
+      background-color: darkgray;
     }
 
-    div.topimg 
-    {
-      width: fit-content;
-      margin-left: 0px;
-    }
+    </style>
 
-    div.logp 
-    {
-      background-color: #56dd5d;
-      position: absolute;
-      width: 30%;
-      margin-top: 0px;
-      margin-left: 60%;
-      text-align: center;
+  <script>
+    function valitade() {
+      var user = document.getElementById("username").value;
+      var pass = document.getElementById("password").value;
+      if (user == "admin" && pass == "pass") {
+        <a href="#"></a>
+      }
     }
-    div.col-md-6
-    {
-      width: 100%;
-      margin-left: 70%;
-      margin-top: 5%;
-    }
-
-    h1.bg-info
-    {
-      text-align: c+enter;
-    }
-  </style>
+  </script>
+ <script>
+  document.getElementsByTagName("h1")[0].style.border = "5px solid white";
+</script>
 </head>
 
 <body>
-  <script>
-    document.getElementsByTagName("h1")[0].style.border = "5px solid white";
-  </script>
+ 
   <h1 class="bg-info text-white">HealthCare Managment</h1>
 
 
@@ -80,11 +53,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <li class="nav-item active">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link " href="about.html">About</a>
             </li>
 
             <li class="nav-item active">
@@ -129,133 +102,60 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     -->
-  <!--top design-->
-
-  <section>
-  <div class="topmost pt-4 pb-5 container my-4">
-
-    <div class="row align-items-center ">
-      <div class=" col-md-7">
-
-        <h1>Online Database For<br> Hospitals and Patients </h1><br>
-        <p> HealthCare Managment helps deliver superior <br>database delivery for hospitals and Patients.</p>
-      </div>
-      <div class="col-md-5">
-        <div class="topimg">
-          <img src="health1.jpg" height="200" width="300"></img>
+  <br>
+  <!--loghos top-->
+  <div class="loghostop">
+    <div class="breadcrumps-section">
+      <div class="container my-4row">
+        <div class="col-md-12">
+          <h2>Log-in for doctor</h2>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-items"><a href="index.html" class="text-dark">Home</a></li>
+            <li class="breadcrumb-items active"> >Log in as Doctor</li>
+          </ol>
         </div>
       </div>
     </div>
-
   </div>
+  <!--loghostop top finish-->
+  <br>
 
+  <!--logmid-->
  
-  <!--top design-->
+   <!--logmid-->
+   <div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+    <div class="card card0 border-0">
+        <div class="row d-flex">
+            <div class="col-lg-6">
+                <div class="card1 pb-5">
+                    <div class="row"> <img src="health2.jpg" class="logo"> </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card2 card border-0 px-4 py-5">
+                    <div class="row mb-4 px-3">
+                   
+                    <div class="row px-3"> <label class="mb-1">
+                            <div class="mb-0 text-sm "><h5>Registration ID</h5> </div>
+                        </label> <input class="mb-4" type="text" name="username" placeholder="Enter Registration ID"> </div>
+                   
+                    <div class="row px-3 mb-4">
+                    
+                    </div>
+                    <div class="row mb-3 px-3"> <button type="submit" class="btn btn-dark p-md-1"><a href="doctentaadhar.html"><h5 class="text-white">Login</h5></a></button> </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="bg-blue py-4">
 
-
-  <hr>
-  <hr>
-
-    <!--Log In-->
-
-    
-  <div class="Loginhead container my-4">
-    <div class="logp text-center pt-2 pb-2 text-white">
-      <h2>Log In/Sign-Up</h2>
+        </div>
     </div>
-    <br>
-    <br>
-      <div class=" col-md-6 ">
-        <h5>Log in as Patient: <a href="logpat.html"><button type="button" class="btn btn-success p-md-3"><h5>Login/Sign-Up</h5> </button></a></h5>
-      </div>
-      <div class=" col-md-6">
-        <h5>Log in as Doctor: <a href="logdoct.html"><button type="button" class="btn btn-warning p-md-3"> <h5>Login/Sign-Up</h5> </button></a></h5>
-      </div>
-  </div>
-
-  </section>
-  <!--Log In-->
-  <br><br>
-  <hr>
-
-  <!--Info Mid-->
-  <div class="info">
-    <div class="container my-4">
-      <div class="row">
-        <div class=" col-md-12 text-center">
-          <h2>Our Services</h2>
-          <hr>
-
-        </div>
-      </div>
-      <div class="row">
-        <div class=" col-md-4">
-
-          <img src="prescription.png" height="200">
-          <h3>E-Prescription
-          </h3>
-
-          <p>A powerful but simple e-prescription will allow you to prescribe and share medications and advise</p>
-        </div>
+</div>
 
 
-        <div class=" col-md-4">
 
-          <img src="appointment.jfif" height="200">
-          <h3>E-Appointment
-          </h3>
-
-          <p>Set up timings without any hurdle</p>
-        </div>
-        <div class=" col-md-4">
-
-          <img src="patientrecord.png" height="200">
-          <h3>Patient Record
-          </h3>
-
-          <p>Keep a track of your patient visits & history; easily and digitally!
-            Printed prescriptions </p>
-        </div>
-
-      </div>
-
-
-      <div class="row">
-        <div class=" col-md-4">
-
-          <img src="opd.jfif" height="200">
-          <h3>OPD 24-Hours
-          </h3>
-
-          <p>Organize your OPD into a paperless experience - from booking appointments, making payments, recording clinical data, getting prescription and lab reports.</p>
-        </div>
-
-
-        <div class=" col-md-4">
-
-          <img src="labman.png" height="200">
-          <h3>LAB Managment
-          </h3>
-
-          <p>Provide a connected experience with integrated sample collection, automated lab and electronic test reports.</p>
-        </div>
-        <div class=" col-md-4">
-
-          <img src="pharm.jfif" height="200">
-          <h3>Pharmacy Managment 
-          </h3>
-
-          <p>Doctors can see stocks and prescribe medicines.Purchase stocks, manage inventory and bill medicines.  </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <!--Info Mid-->
-
-
-  <!--Footer-->
-  <div class="container-fluid">
     <!-- Footer -->
     <footer class="page-footer font-small bg-info pt-4">
 
@@ -345,13 +245,14 @@
 
       </div>
       <!-- Footer Links -->
-
+    </footer>
 
 
 
 
   </div>
-  <!--footer end-->
+  <!--Finish Logmid-->
+
   <!-- Copyright -->
   <div class="container-fluid bg-dark text-white text-center py-3">© 2021 Copyright:
     <a href="https://mdbootstrap.com/"> HealthCare Managment</a>
@@ -361,27 +262,6 @@
   </footer>
   </div>
   <!-- Footer -->
-
-  <script src="js/customs.js"></script>
-	<script src="jquery.ripples-min.js"></script>
-
-	<!-- <script>
-		jQuery(document).ready(function(){
-			$('header').ripples({
-  dropRadius: 20,
-  perturbance: 0.03,
-  
-});
-		}); -->
-		
-	</script>
-
-	
-
-<script src="tilt.jquery.min.js">
-
-
-</script>
 </body>
 
 </html>
